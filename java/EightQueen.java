@@ -1,10 +1,9 @@
 public class EightQueen {
 
 	private final int COUNT = 8;
-
 	private int [][] matrix;
-
 	private int numOfResult = 0;
+	
 	public EightQueen(){
 		matrix = new int[8][8];
 		numOfResult = 0;
