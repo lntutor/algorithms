@@ -8,7 +8,7 @@ public class ArrayShuffle {
 
 		while(length>0) {
 			length--;
-			System.out.println("length " + length);
+			//System.out.println("length " + length);
 			int index = rand.nextInt(length + 1);
 			int tmp = array[index];
 			array[index] = array[length];
