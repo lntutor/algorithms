@@ -10,7 +10,9 @@ public class Main {
 		// array =  ArrayShuffle.shuffle(array);
 		// Utils.printArray(array);
 		//System.out.println(Prime.isPrime(12)+"");
-		Permutation perm = new Permutation(array);
-		perm.printPermutate();
+		// Permutation perm = new Permutation(array);
+		// perm.printPermutate();
+		Fibo fibo = new Fibo(7);
+		fibo.printFibo();
 	}
 }
