@@ -14,5 +14,7 @@ public class Main {
 		// perm.printPermutate();
 		Fibo fibo = new Fibo(7);
 		fibo.printFibo();
+		DecimalConverter converter = new DecimalConverter(44832109);
+		converter.printAll();
 	}
 }
