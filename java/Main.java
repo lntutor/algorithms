@@ -12,9 +12,15 @@ public class Main {
 		//System.out.println(Prime.isPrime(12)+"");
 		// Permutation perm = new Permutation(array);
 		// perm.printPermutate();
-		Fibo fibo = new Fibo(7);
-		fibo.printFibo();
-		DecimalConverter converter = new DecimalConverter(44832109);
-		converter.printAll();
+		// Fibo fibo = new Fibo(7);
+		// fibo.printFibo();
+		// DecimalConverter converter = new DecimalConverter(44832109);
+		// converter.printAll();
+
+		//graph.printGraph();
+		// Graph graph = Graph.createSampleGraph();
+		Dijkstra dijkstra = new Dijkstra();
+		dijkstra.findShortestPath(0);
+			
 	}
 }
