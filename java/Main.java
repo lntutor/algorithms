@@ -19,8 +19,10 @@ public class Main {
 
 		//graph.printGraph();
 		// Graph graph = Graph.createSampleGraph();
-		Dijkstra dijkstra = new Dijkstra();
-		dijkstra.findShortestPath(0);
+		// Dijkstra dijkstra = new Dijkstra();
+		// dijkstra.findShortestPath(0);
+		Prim prim = new Prim();
+		prim.findMST(0);
 			
 	}
 }

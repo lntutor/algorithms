@@ -42,6 +42,8 @@ public class AdjacentMatrixGraph {
     public void addEdge(int u, int v, int distance){
         adjacent[u][v] = true;
         this.distance[u][v] = distance;
+        adjacent[v][u] = true;
+        this.distance[v][u] = distance;
     }
 
     public void printGraph(){
