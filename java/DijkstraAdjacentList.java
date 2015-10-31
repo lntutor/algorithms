@@ -13,7 +13,7 @@ public class DijkstraAdjacentList {
     int source;
 
 
-    public DijkstraAdjacentList(){
+    public DijkstraAdjacentList (){
         graph = new AdjacentListGraph(4);
         graph.addEdge(0, 1, 1);
         graph.addEdge(0, 2, 5);
