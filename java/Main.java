@@ -1,5 +1,20 @@
 public class Main {
 
+	public static class Node {
+
+		int node;
+		Node left;
+		Node right;
+
+		public Node(int node) {
+			this.node = node;
+			this.left = null;
+			this.right = null;
+		}
+	
+	}
+
+	
 	public static void main(String args []) {
 
 		// EightQueen queen = new EightQueen();
