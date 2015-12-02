@@ -1,3 +1,4 @@
+//http://codeforces.com/problemset/problem/79/B
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Scanner;
